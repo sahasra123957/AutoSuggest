@@ -1,3 +1,16 @@
 h1{
     color:aquamarine;
 }
+#p1{
+    color:bisque;
+}
+#p2{
+    color:brown;
+}
+#home-intro{
+    text-align:center;
+   border:3px black solid;
+}
+#home-intro:hover{
+   background-color:black;
+}
