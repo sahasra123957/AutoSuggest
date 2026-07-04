@@ -1,0 +1,46 @@
+#home{
+    text-align: center;
+    align-items: center;
+    border: 3px black solid;
+    border-radius: 15px;
+     border: 2px solid #333;
+    margin:3px auto;
+    height: 300px;
+    width:auto;
+}
+#row{
+    text-align: center;
+    align-items: center;
+}
+#gear{
+    text-align: left;
+}
+#top{
+    text-align: right;
+}
+#head{
+   -webkit-text-fill-color: aqua;
+   font-size: large;
+}
+.first{
+    -webkit-text-fill-color:rgb(39, 203, 102) ;
+}
+#search{
+    border-radius: 30px;
+    width:50%;
+    align-items: center;
+    margin:3px auto;
+    height: 50px;
+
+}
+#text{
+    width:50%;
+}
+#suggestion-box{
+    border: 1px solid black;
+    width:50%;
+    margin:3px auto;
+}
+#text{
+    font-size: large;
+}

@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="autosuggest.css">
 <body>
-    <h1>hello sahasra</h1>
+    <div id="home">
+        <div class="row">
+            <div id="gear">
+                <span id="gear">⚙️ Settings</span>
+            </div>
+            <div id="top">
+                <span id="bullet">•</span>
+                <span id="home-first">online |</span>
+                <span id="clock">🕒</span>
+                <span id="time">- ms</span>
+            </div>
+        </div>
+        <div class="text">
+            <h1><span class="first" >Being</span><span class="second">Zero</span></h1>
+            <p> One million phrases.Four Algorithms.Prefix based Auto Suggest.</p>
+        </div>
+            <div class="search">
+                &#128269<input type="text" id="search" placeholder="Type Here to search">
+                <div id="suggestions"></div>
+            </div>
+        <div id="suggestion-box">
+        suggestionbox
+        </div>
+    </div>
+    <script src="autosuggest.js"></script>
 </body>
 </html>
