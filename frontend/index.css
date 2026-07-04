@@ -29,6 +29,41 @@ h1{
     /*margin:y-axis x-axis*/
     text-decoration: none;
     color: aliceblue;
-
-
+}
+#card{ 
+    border: 2px black solid;
+    align-items:center;
+    text-align: center;
+    margin: 5px auto;
+    height:500px;
+    width:430px;
+    border-radius: 8px;
+}
+#card-img{
+    border: 3px auto black;
+    height: 250px;
+}
+#card-name{
+    text-align: center;
+    -webkit-animation-fill-color: beige ;
+}
+#card-gender{
+    text-align: center;
+    color:beige;
+}
+#images{
+    align-items: center;
+    height: 200px;
+    width:200px;
+}
+#action{
+    align-items: center;
+    text-align: center;
+}
+button{
+    width:100%;
+}
+#toggle{
+    text-align: center;
+    -webkit-animation-fill-color:beige;
 }
